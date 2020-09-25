@@ -1,3 +1,3 @@
 ### Hi there 👋
 
-YoungSan UNiV Outjae team Capston Design thx ^~^
+YoungSan Univ Capston Design Outjae team thx ^~^
