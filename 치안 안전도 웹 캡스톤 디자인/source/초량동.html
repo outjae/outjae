@@ -57,7 +57,7 @@
             top: 55px;
             left: 10px;
             width: 285px;
-            height: 50px;
+            height: 60px;
             z-index: 10;
             border: 1px solid black;
             font-family: 'Malgun Gothic', '맑은 고딕', sans-serif;
@@ -78,7 +78,7 @@
             list-style: none;
             float: left;
             width: 56px;
-            height: 45px;
+            height: 55px;
             padding-top: 5px;
             cursor: pointer;
         }
@@ -86,29 +86,29 @@
         .category .ico_comm {
             display: block;
             margin: 0 auto 2px;
-            width: 22px;
-            height: 26px;
-            background: url("https://t1.daumcdn.net/localimg/localimages/07/mapapidoc/markerStar.png") no-repeat;
+            width: 32px;
+            height: 35px;
+            background: url("https://ifh.cc/g/kfWMiY.png") no-repeat;
         }
 
         .category .ico_cctv {
-            background-position: -1px -2px;
+            background-position: -10px -8px;
         }
 
         .category .ico_store {
-            background-position: -1px -2px;
+            background-position: -62px -8px;
         }
 
         .category .ico_police {
-            background-position: -1px -2px;
+            background-position: -10px -62px;
         }
 
         .category .ico_bell {
-            background-position: -1px -2px;
+            background-position: -62px -60px;
         }
 
         .category .ico_all {
-            background-position: -1px -2px;
+            background-position: -114px -8px;
         }
     </style>
 </head>
@@ -352,7 +352,7 @@
         <script>
             var mapContainer = document.getElementById('map'),
                 mapOption = {
-                    center: new kakao.maps.LatLng(35.119369, 129.037800),
+                    center: new kakao.maps.LatLng(35.093483, 129.043818),
                     level: 4
                 };
             var map = new kakao.maps.Map(mapContainer, mapOption);
@@ -10302,7 +10302,7 @@
                 new kakao.maps.LatLng(35.171468, 129.125367),
                 new kakao.maps.LatLng(35.219018, 129.156371)
             ];
-            var imageSrc = "https://t1.daumcdn.net/localimg/localimages/07/mapapidoc/markerStar.png";
+            var imageSrc = "https://ifh.cc/g/kfWMiY.png";
             storeMarkers = [],
                 cctvMarkers = [],
                 policeMarkers = [],
@@ -10328,10 +10328,10 @@
             }
             function createCctvMarkers() {
                 for (var i = 0; i < CCTV.length; i++) {
-                    var imageSize = new kakao.maps.Size(24, 35),
+                    var imageSize = new kakao.maps.Size(17, 22),
                         imageOptions = {
                             spriteOrigin: new kakao.maps.Point(0, 0),
-                            spriteSize: new kakao.maps.Size(23, 30)
+                            spriteSize: new kakao.maps.Size(45, 45)
                         };
                     var markerImage = createMarkerImage(imageSrc, imageSize, imageOptions),
                         marker = createMarker(CCTV[i], markerImage);
@@ -10345,10 +10345,10 @@
             }
             function createStoreMarkers() {
                 for (var i = 0; i < store.length; i++) {
-                    var imageSize = new kakao.maps.Size(24, 35),
+                    var imageSize = new kakao.maps.Size(15, 22),
                         imageOptions = {
-                            spriteOrigin: new kakao.maps.Point(0, 0),
-                            spriteSize: new kakao.maps.Size(23, 30)
+                            spriteOrigin: new kakao.maps.Point(14,0),
+                            spriteSize: new kakao.maps.Size(45, 45)
                         };
                     var markerImage = createMarkerImage(imageSrc, imageSize, imageOptions),
                         marker = createMarker(store[i], markerImage);
@@ -10362,10 +10362,10 @@
             }
             function createpoliceMarkers() {
                 for (var i = 0; i < police.length; i++) {
-                    var imageSize = new kakao.maps.Size(24, 35),
+                    var imageSize = new kakao.maps.Size(20, 22),
                         imageOptions = {
-                            spriteOrigin: new kakao.maps.Point(0, 0),
-                            spriteSize: new kakao.maps.Size(23, 30)
+                            spriteOrigin: new kakao.maps.Point(0, 20),
+                            spriteSize: new kakao.maps.Size(60, 45)
                         };
                     var markerImage = createMarkerImage(imageSrc, imageSize, imageOptions),
                         marker = createMarker(police[i], markerImage);
@@ -10379,10 +10379,10 @@
             }
             function createbellMarkers() {
                 for (var i = 0; i < bell.length; i++) {
-                    var imageSize = new kakao.maps.Size(24, 35),
+                    var imageSize = new kakao.maps.Size(40, 22),
                         imageOptions = {
-                            spriteOrigin: new kakao.maps.Point(0, 0),
-                            spriteSize: new kakao.maps.Size(23, 30)
+                            spriteOrigin: new kakao.maps.Point(14, 20),
+                            spriteSize: new kakao.maps.Size(53, 45)
                         };
                     var markerImage = createMarkerImage(imageSrc, imageSize, imageOptions),
                         marker = createMarker(bell[i], markerImage);
