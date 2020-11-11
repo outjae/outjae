@@ -188,146 +188,146 @@
                 var group = new Array(groups)
                 for (i = 0; i < groups; i++)
                     group[i] = new Array()
-                group[0][0] = new Option("전체", "http://127.0.0.1:5500/abc/부산 치안 안전도.html");
+                    group[0][0] = new Option("전체", "http://221.162.237.17/부산 치안 안전도.jsp");
 
-                group[1][0] = new Option("강동동", "http://127.0.0.1:5500/%EA%B0%95%EB%8F%99%EB%8F%99.html");
-                group[1][1] = new Option("구랑동", "http://127.0.0.1:5500/abc/구랑동.html");
-                group[1][2] = new Option("녹산동", "http://127.0.0.1:5500/abc/녹산동.html");
-                group[1][3] = new Option("눌차동", "http://127.0.0.1:5500/abc/눌차동.html");
-                group[1][4] = new Option("대저동", "http://127.0.0.1:5500/abc/대저동.html");
-                group[1][5] = new Option("대항동", "http://127.0.0.1:5500/abc/대항동.html");
-                group[1][6] = new Option("동선동", "http://127.0.0.1:5500/abc/동선동.html");
-                group[1][7] = new Option("명지동", "http://127.0.0.1:5500/abc/명지동.html");
-                group[1][8] = new Option("미음동", "http://127.0.0.1:5500/abc/미음동.html");
-                group[1][9] = new Option("범방동", "http://127.0.0.1:5500/abc/범방동.html");
-                group[1][10] = new Option("봉림동", "http://127.0.0.1:5500/abc/봉림동.html");
-                group[1][11] = new Option("생곡동", "http://127.0.0.1:5500/abc/생곡동.html");
-                group[1][12] = new Option("성북동", "http://127.0.0.1:5500/abc/성북동.html");
-                group[1][13] = new Option("송정동", "http://127.0.0.1:5500/abc/송정동.html");
-                group[1][14] = new Option("식만동", "http://127.0.0.1:5500/abc/식만동.html");
-                group[1][15] = new Option("신호동", "http://127.0.0.1:5500/abc/신호동.html");
-                group[1][16] = new Option("죽동동", "http://127.0.0.1:5500/abc/죽동동.html");
-                group[1][17] = new Option("죽림동", "http://127.0.0.1:5500/abc/죽림동.html");
-                group[1][18] = new Option("지사동", "http://127.0.0.1:5500/abc/지사동.html");
-                group[1][19] = new Option("천선동", "http://127.0.0.1:5500/abc/천선동.html");
-                group[1][20] = new Option("화전동", "http://127.0.0.1:5500/abc/화전동.html");
+                    group[1][0] = new Option("강동동", "http://221.162.237.17/강동동.jsp");
+                    group[1][1] = new Option("구랑동", "http://221.162.237.17/구랑동.jsp");
+                    group[1][2] = new Option("녹산동", "http://221.162.237.17/녹산동.jsp");
+                    group[1][3] = new Option("눌차동", "http://221.162.237.17/눌차동.jsp");
+                    group[1][4] = new Option("대저동", "http://221.162.237.17/대저동.jsp");
+                    group[1][5] = new Option("대항동", "http://221.162.237.17/대항동.jsp");
+                    group[1][6] = new Option("동선동", "http://221.162.237.17/동선동.jsp");
+                    group[1][7] = new Option("명지동", "http://221.162.237.17/명지동.jsp");
+                    group[1][8] = new Option("미음동", "http://221.162.237.17/미음동.jsp");
+                    group[1][9] = new Option("범방동", "http://221.162.237.17/범방동.jsp");
+                    group[1][10] = new Option("봉림동", "http://221.162.237.17/봉림동.jsp");
+                    group[1][11] = new Option("생곡동", "http://221.162.237.17/생곡동.jsp");
+                    group[1][12] = new Option("성북동", "http://221.162.237.17/성북동.jsp");
+                    group[1][13] = new Option("송정동", "http://221.162.237.17/송정동.jsp");
+                    group[1][14] = new Option("식만동", "http://221.162.237.17/식만동.jsp");
+                    group[1][15] = new Option("신호동", "http://221.162.237.17/신호동.jsp");
+                    group[1][16] = new Option("죽동동", "http://221.162.237.17/죽동동.jsp");
+                    group[1][17] = new Option("죽림동", "http://221.162.237.17/죽림동.jsp");
+                    group[1][18] = new Option("지사동", "http://221.162.237.17/지사동.jsp");
+                    group[1][19] = new Option("천선동", "http://221.162.237.17/천선동.jsp");
+                    group[1][20] = new Option("화전동", "http://221.162.237.17/화전동.jsp");
 
-                group[2][0] = new Option("구서동", "http://127.0.0.1:5500/abc/구서동.html");
-                group[2][1] = new Option("금사동", "http://127.0.0.1:5500/abc/금사동.html");
-                group[2][2] = new Option("금성동", "http://127.0.0.1:5500/abc/금성동.html");
-                group[2][3] = new Option("남산동", "http://127.0.0.1:5500/abc/남산동.html");
-                group[2][4] = new Option("노포동", "http://127.0.0.1:5500/abc/노포동.html");
-                group[2][5] = new Option("두구동", "http://127.0.0.1:5500/abc/두구동.html");
-                group[2][6] = new Option("부곡동", "http://127.0.0.1:5500/abc/부곡동.html");
-                group[2][7] = new Option("서동", "http://127.0.0.1:5500/abc/서동.html");
-                group[2][8] = new Option("선동", "http://127.0.0.1:5500/abc/선동.html");
-                group[2][9] = new Option("오륜동", "http://127.0.0.1:5500/abc/오륜동.html");
-                group[2][10] = new Option("장전동", "http://127.0.0.1:5500/abc/장전동.html");
-                group[2][11] = new Option("청룡동", "http://127.0.0.1:5500/abc/청룡동.html");
-                group[2][12] = new Option("회동동", "http://127.0.0.1:5500/abc/회동동.html");
+                    group[2][0] = new Option("구서동", "http://221.162.237.17/구서동.jsp");
+                    group[2][1] = new Option("금사동", "http://221.162.237.17/금사동.jsp");
+                    group[2][2] = new Option("금성동", "http://221.162.237.17/금성동.jsp");
+                    group[2][3] = new Option("남산동", "http://221.162.237.17/남산동.jsp");
+                    group[2][4] = new Option("노포동", "http://221.162.237.17/노포동.jsp");
+                    group[2][5] = new Option("두구동", "http://221.162.237.17/두구동.jsp");
+                    group[2][6] = new Option("부곡동", "http://221.162.237.17/부곡동.jsp");
+                    group[2][7] = new Option("서동", "http://221.162.237.17/서동.jsp");
+                    group[2][8] = new Option("선동", "http://221.162.237.17/선동.jsp");
+                    group[2][9] = new Option("오륜동", "http://221.162.237.17/오륜동.jsp");
+                    group[2][10] = new Option("장전동", "http://221.162.237.17/장전동.jsp");
+                    group[2][11] = new Option("청룡동", "http://221.162.237.17/청룡동.jsp");
+                    group[2][12] = new Option("회동동", "http://221.162.237.17/회동동.jsp");
 
-                group[3][0] = new Option("기장읍", "http://127.0.0.1:5500/abc/기장읍.html");
-                group[3][1] = new Option("장안읍", "http://127.0.0.1:5500/abc/장안읍.html");
-                group[3][2] = new Option("정관읍", "http://127.0.0.1:5500/abc/정관읍.html");
-                group[3][3] = new Option("일광면", "http://127.0.0.1:5500/abc/일광면.html");
-                group[3][4] = new Option("철마면", "http://127.0.0.1:5500/abc/철마면.html");
+                    group[3][0] = new Option("기장읍", "http://221.162.237.17/기장읍.jsp");
+                    group[3][1] = new Option("장안읍", "http://221.162.237.17/장안읍.jsp");
+                    group[3][2] = new Option("정관읍", "http://221.162.237.17/정관읍.jsp");
+                    group[3][3] = new Option("일광면", "http://221.162.237.17/일광면.jsp");
+                    group[3][4] = new Option("철마면", "http://221.162.237.17/철마면.jsp");
 
-                group[4][0] = new Option("대연동", "http://127.0.0.1:5500/abc/대연동.html");
-                group[4][1] = new Option("용호동", "http://127.0.0.1:5500/abc/용호동.html");
-                group[4][2] = new Option("용당동", "http://127.0.0.1:5500/abc/용당동.html");
-                group[4][3] = new Option("감만동", "http://127.0.0.1:5500/abc/감만동.html");
-                group[4][4] = new Option("우암동", "http://127.0.0.1:5500/abc/우암동.html");
-                group[4][5] = new Option("문현동", "http://127.0.0.1:5500/abc/문현동.html");
+                    group[4][0] = new Option("대연동", "http://221.162.237.17/대연동.jsp");
+                    group[4][1] = new Option("용호동", "http://221.162.237.17/용호동.jsp");
+                    group[4][2] = new Option("용당동", "http://221.162.237.17/용당동.jsp");
+                    group[4][3] = new Option("감만동", "http://221.162.237.17/감만동.jsp");
+                    group[4][4] = new Option("우암동", "http://221.162.237.17/우암동.jsp");
+                    group[4][5] = new Option("문현동", "http://221.162.237.17/문현동.jsp");
 
-                group[5][0] = new Option("초량동", "http://127.0.0.1:5500/abc/초량동.html");
-                group[5][1] = new Option("수정동", "http://127.0.0.1:5500/abc/수정동.html");
-                group[5][2] = new Option("좌천동", "http://127.0.0.1:5500/abc/좌천동.html");
-                group[5][3] = new Option("범일동", "http://127.0.0.1:5500/abc/범일동.html");
+                    group[5][0] = new Option("초량동", "http://221.162.237.17/초량동.jsp");
+                    group[5][1] = new Option("수정동", "http://221.162.237.17/수정동.jsp");
+                    group[5][2] = new Option("좌천동", "http://221.162.237.17/좌천동.jsp");
+                    group[5][3] = new Option("범일동", "http://221.162.237.17/범일동.jsp");
 
-                group[6][0] = new Option("수민동", "http://127.0.0.1:5500/abc/수민동.html");
-                group[6][1] = new Option("복산동", "http://127.0.0.1:5500/abc/복산동.html");
-                group[6][2] = new Option("명륜동", "http://127.0.0.1:5500/abc/명륜동.html");
-                group[6][3] = new Option("온천동", "http://127.0.0.1:5500/abc/온천동.html");
-                group[6][4] = new Option("사직동", "http://127.0.0.1:5500/abc/사직동.html");
-                group[6][5] = new Option("안락동", "http://127.0.0.1:5500/abc/안락동.html");
-                group[6][6] = new Option("명장동", "http://127.0.0.1:5500/abc/명장동.html");
+                    group[6][0] = new Option("수민동", "http://221.162.237.17/수민동.jsp");
+                    group[6][1] = new Option("복산동", "http://221.162.237.17/복산동.jsp");
+                    group[6][2] = new Option("명륜동", "http://221.162.237.17/명륜동.jsp");
+                    group[6][3] = new Option("온천동", "http://221.162.237.17/온천동.jsp");
+                    group[6][4] = new Option("사직동", "http://221.162.237.17/사직동.jsp");
+                    group[6][5] = new Option("안락동", "http://221.162.237.17/안락동.jsp");
+                    group[6][6] = new Option("명장동", "http://221.162.237.17/명장동.jsp");
 
-                group[7][0] = new Option("부전동", "http://127.0.0.1:5500/abc/부전동.html");
-                group[7][1] = new Option("연지동", "http://127.0.0.1:5500/abc/연지동.html");
-                group[7][2] = new Option("초읍동", "http://127.0.0.1:5500/abc/초읍동.html");
-                group[7][3] = new Option("양정동", "http://127.0.0.1:5500/abc/양정동.html");
-                group[7][4] = new Option("전포동", "http://127.0.0.1:5500/abc/전포동.html");
-                group[7][5] = new Option("부암동", "http://127.0.0.1:5500/abc/부암동.html");
-                group[7][6] = new Option("당감동", "http://127.0.0.1:5500/abc/당감동.html");
-                group[7][7] = new Option("가야동", "http://127.0.0.1:5500/abc/가야동.html");
-                group[7][8] = new Option("개금동", "http://127.0.0.1:5500/abc/개금동.html");
-                group[7][9] = new Option("범천동", "http://127.0.0.1:5500/abc/범천동.html");
+                    group[7][0] = new Option("부전동", "http://221.162.237.17/부전동.jsp");
+                    group[7][1] = new Option("연지동", "http://221.162.237.17/연지동.jsp");
+                    group[7][2] = new Option("초읍동", "http://221.162.237.17/초읍동.jsp");
+                    group[7][3] = new Option("양정동", "http://221.162.237.17/양정동.jsp");
+                    group[7][4] = new Option("전포동", "http://221.162.237.17/전포동.jsp");
+                    group[7][5] = new Option("부암동", "http://221.162.237.17/부암동.jsp");
+                    group[7][6] = new Option("당감동", "http://221.162.237.17/당감동.jsp");
+                    group[7][7] = new Option("가야동", "http://221.162.237.17/가야동.jsp");
+                    group[7][8] = new Option("개금동", "http://221.162.237.17/개금동.jsp");
+                    group[7][9] = new Option("범천동", "http://221.162.237.17/범천동.jsp");
 
-                group[8][0] = new Option("구포동", "http://127.0.0.1:5500/abc/구포동.html");
-                group[8][1] = new Option("금곡동", "http://127.0.0.1:5500/abc/금곡동.html");
-                group[8][2] = new Option("화명동", "http://127.0.0.1:5500/abc/화명동.html");
-                group[8][3] = new Option("덕천동", "http://127.0.0.1:5500/abc/덕천동.html");
-                group[8][4] = new Option("만덕동", "http://127.0.0.1:5500/abc/만덕동.html");
+                    group[8][0] = new Option("구포동", "http://221.162.237.17/구포동.jsp");
+                    group[8][1] = new Option("금곡동", "http://221.162.237.17/금곡동.jsp");
+                    group[8][2] = new Option("화명동", "http://221.162.237.17/화명동.jsp");
+                    group[8][3] = new Option("덕천동", "http://221.162.237.17/덕천동.jsp");
+                    group[8][4] = new Option("만덕동", "http://221.162.237.17/만덕동.jsp");
 
-                group[9][0] = new Option("삼락동", "http://127.0.0.1:5500/abc/삼락동.html");
-                group[9][1] = new Option("모라동", "http://127.0.0.1:5500/abc/모라동.html");
-                group[9][2] = new Option("덕포동", "http://127.0.0.1:5500/abc/덕포동.html");
-                group[9][3] = new Option("괘범동", "http://127.0.0.1:5500/abc/괘범동.html");
-                group[9][4] = new Option("감전동", "http://127.0.0.1:5500/abc/감전동.html");
-                group[9][5] = new Option("주례동", "http://127.0.0.1:5500/abc/주례동.html");
-                group[9][6] = new Option("학장동", "http://127.0.0.1:5500/abc/학장동.html");
-                group[9][7] = new Option("엄궁동", "http://127.0.0.1:5500/abc/엄궁동.html");
+                    group[9][0] = new Option("삼락동", "http://221.162.237.17/삼락동.jsp");
+                    group[9][1] = new Option("모라동", "http://221.162.237.17/모라동.jsp");
+                    group[9][2] = new Option("덕포동", "http://221.162.237.17/덕포동.jsp");
+                    group[9][3] = new Option("괘범동", "http://221.162.237.17/괘범동.jsp");
+                    group[9][4] = new Option("감전동", "http://221.162.237.17/감전동.jsp");
+                    group[9][5] = new Option("주례동", "http://221.162.237.17/주례동.jsp");
+                    group[9][6] = new Option("학장동", "http://221.162.237.17/학장동.jsp");
+                    group[9][7] = new Option("엄궁동", "http://221.162.237.17/엄궁동.jsp");
 
-                group[10][0] = new Option("괴정동", "http://127.0.0.1:5500/abc/괴정동.html");
-                group[10][1] = new Option("당리동", "http://127.0.0.1:5500/abc/당리동.html");
-                group[10][2] = new Option("하단동", "http://127.0.0.1:5500/abc/하단동.html");
-                group[10][3] = new Option("신평동", "http://127.0.0.1:5500/abc/신평동.html");
-                group[10][4] = new Option("장림동", "http://127.0.0.1:5500/abc/장림동.html");
-                group[10][5] = new Option("다대동", "http://127.0.0.1:5500/abc/다대동.html");
-                group[10][6] = new Option("구평동", "http://127.0.0.1:5500/abc/구평동.html");
-                group[10][7] = new Option("감천동", "http://127.0.0.1:5500/abc/감천동.html");
+                    group[10][0] = new Option("괴정동", "http://221.162.237.17/괴정동.jsp");
+                    group[10][1] = new Option("당리동", "http://221.162.237.17/당리동.jsp");
+                    group[10][2] = new Option("하단동", "http://221.162.237.17/하단동.jsp");
+                    group[10][3] = new Option("신평동", "http://221.162.237.17/신평동.jsp");
+                    group[10][4] = new Option("장림동", "http://221.162.237.17/장림동.jsp");
+                    group[10][5] = new Option("다대동", "http://221.162.237.17/다대동.jsp");
+                    group[10][6] = new Option("구평동", "http://221.162.237.17/구평동.jsp");
+                    group[10][7] = new Option("감천동", "http://221.162.237.17/감천동.jsp");
 
-                group[11][0] = new Option("동대신동", "http://127.0.0.1:5500/abc/동대신동.html");
-                group[11][1] = new Option("서대신동", "http://127.0.0.1:5500/abc/서대신동.html");
-                group[11][2] = new Option("부민동", "http://127.0.0.1:5500/abc/부민동.html");
-                group[11][3] = new Option("아미동", "http://127.0.0.1:5500/abc/아미동.html");
-                group[11][4] = new Option("초장동", "http://127.0.0.1:5500/abc/초장동.html");
-                group[11][5] = new Option("충무동", "http://127.0.0.1:5500/abc/충무동.html");
-                group[11][6] = new Option("남부민동", "http://127.0.0.1:5500/abc/남부민동.html");
-                group[11][7] = new Option("암남동", "http://127.0.0.1:5500/abc/암남동.html");
+                    group[11][0] = new Option("동대신동", "http://221.162.237.17/동대신동.jsp");
+                    group[11][1] = new Option("서대신동", "http://221.162.237.17/서대신동.jsp");
+                    group[11][2] = new Option("부민동", "http://221.162.237.17/부민동.jsp");
+                    group[11][3] = new Option("아미동", "http://221.162.237.17/아미동.jsp");
+                    group[11][4] = new Option("초장동", "http://221.162.237.17/초장동.jsp");
+                    group[11][5] = new Option("충무동", "http://221.162.237.17/충무동.jsp");
+                    group[11][6] = new Option("남부민동", "http://221.162.237.17/남부민동.jsp");
+                    group[11][7] = new Option("암남동", "http://221.162.237.17/암남동.jsp");
 
-                group[12][0] = new Option("남천동", "http://127.0.0.1:5500/abc/남천동.html");
-                group[12][1] = new Option("수영동", "http://127.0.0.1:5500/abc/수영동.html");
-                group[12][2] = new Option("망미동", "http://127.0.0.1:5500/abc/망미동.html");
-                group[12][3] = new Option("광안동", "http://127.0.0.1:5500/abc/광안동.html");
-                group[12][4] = new Option("민락동", "http://127.0.0.1:5500/abc/민락동.html");
+                    group[12][0] = new Option("남천동", "http://221.162.237.17/남천동.jsp");
+                    group[12][1] = new Option("수영동", "http://221.162.237.17/수영동.jsp");
+                    group[12][2] = new Option("망미동", "http://221.162.237.17/망미동.jsp");
+                    group[12][3] = new Option("광안동", "http://221.162.237.17/광안동.jsp");
+                    group[12][4] = new Option("민락동", "http://221.162.237.17/민락동.jsp");
 
-                group[13][0] = new Option("거제", "http://127.0.0.1:5500/abc/거제.html");
-                group[13][1] = new Option("연산동", "http://127.0.0.1:5500/abc/연산동.html");
+                    group[13][0] = new Option("거제", "http://221.162.237.17/거제.jsp");
+                    group[13][1] = new Option("연산동", "http://221.162.237.17/연산동.jsp");
 
-                group[14][0] = new Option("남항동", "http://127.0.0.1:5500/abc/남항동.html");
-                group[14][1] = new Option("영선동", "http://127.0.0.1:5500/abc/영선동.html");
-                group[14][2] = new Option("신선동", "http://127.0.0.1:5500/abc/신선동.html");
-                group[14][3] = new Option("봉래동", "http://127.0.0.1:5500/abc/봉래동.html");
-                group[14][4] = new Option("청학동", "http://127.0.0.1:5500/abc/청학동.html");
-                group[14][5] = new Option("동삼동", "http://127.0.0.1:5500/abc/동삼동.html");
+                    group[14][0] = new Option("남항동", "http://221.162.237.17/남항동.jsp");
+                    group[14][1] = new Option("영선동", "http://221.162.237.17/영선동.jsp");
+                    group[14][2] = new Option("신선동", "http://221.162.237.17/신선동.jsp");
+                    group[14][3] = new Option("봉래동", "http://221.162.237.17/봉래동.jsp");
+                    group[14][4] = new Option("청학동", "http://221.162.237.17/청학동.jsp");
+                    group[14][5] = new Option("동삼동", "http://221.162.237.17/동삼동.jsp");
 
-                group[15][0] = new Option("중앙동", "http://127.0.0.1:5500/abc/중앙동.html");
-                group[15][1] = new Option("동광동", "http://127.0.0.1:5500/abc/동광동.html");
-                group[15][2] = new Option("대청동", "http://127.0.0.1:5500/abc/대청동.html");
-                group[15][3] = new Option("보수동", "http://127.0.0.1:5500/abc/보수동.html");
-                group[15][4] = new Option("부평동", "http://127.0.0.1:5500/abc/부평동.html");
-                group[15][5] = new Option("광복동", "http://127.0.0.1:5500/abc/광복동.html");
-                group[15][6] = new Option("남포동", "http://127.0.0.1:5500/abc/남포동.html");
-                group[15][7] = new Option("영주동", "http://127.0.0.1:5500/abc/영주동.html");
+                    group[15][0] = new Option("중앙동", "http://221.162.237.17/중앙동.jsp");
+                    group[15][1] = new Option("동광동", "http://221.162.237.17/동광동.jsp");
+                    group[15][2] = new Option("대청동", "http://221.162.237.17/대청동.jsp");
+                    group[15][3] = new Option("보수동", "http://221.162.237.17/보수동.jsp");
+                    group[15][4] = new Option("부평동", "http://221.162.237.17/부평동.jsp");
+                    group[15][5] = new Option("광복동", "http://221.162.237.17/광복동.jsp");
+                    group[15][6] = new Option("남포동", "http://221.162.237.17/남포동.jsp");
+                    group[15][7] = new Option("영주동", "http://221.162.237.17/영주동.jsp");
 
-                group[16][0] = new Option("우동", "http://127.0.0.1:5500/abc/우동.html");
-                group[16][1] = new Option("중동", "http://127.0.0.1:5500/abc/중동.html");
-                group[16][2] = new Option("좌동", "http://127.0.0.1:5500/abc/좌동.html");
-                group[16][3] = new Option("송정동", "http://127.0.0.1:5500/abc/송정동.html");
-                group[16][4] = new Option("반여동", "http://127.0.0.1:5500/abc/반여동.html");
-                group[16][5] = new Option("반송동", "http://127.0.0.1:5500/abc/반송동.html");
-                group[16][6] = new Option("재송동", "http://127.0.0.1:5500/abc/재송동.html");
+                    group[16][0] = new Option("우동", "http://221.162.237.17/우동.jsp");
+                    group[16][1] = new Option("중동", "http://221.162.237.17/중동.jsp");
+                    group[16][2] = new Option("좌동", "http://221.162.237.17/좌동.jsp");
+                    group[16][3] = new Option("송정동", "http://221.162.237.17/송정동.jsp");
+                    group[16][4] = new Option("반여동", "http://221.162.237.17/반여동.jsp");
+                    group[16][5] = new Option("반송동", "http://221.162.237.17/반송동.jsp");
+                    group[16][6] = new Option("재송동", "http://221.162.237.17/재송동.jsp");
 
                 var temp = document.form1.S2
                 function replace(x) {
@@ -383,7 +383,9 @@
                               center : new kakao.maps.LatLng(latitud, longitude)    // 지도의 중심좌표
                             , level : 3    // 지도의 확대레벨
                         };
-                   
+                        
+                       
+            
                         // 마커가 표시될 위치
                         var markerPosition = new kakao.maps.LatLng(latitud, longitude);
             
@@ -401,7 +403,7 @@
                         consol.log("Geolocation을 지원하지 않는 브라우저 입니다.");
                     }
                 });
-            </script>   
+            </script>
             <div id="map" style="width:800px;height:400px;"></div>
         <script>
                         var areas = [
@@ -1800,7 +1802,7 @@
                 ];
             var mapContainer = document.getElementById('map'),
                 mapOption = {
-                    center: new kakao.maps.LatLng(35.093483, 129.043818),
+                    center: new kakao.maps.LatLng(35.157353, 129.057217),
                     level: 4
                 };
             var map = new kakao.maps.Map(mapContainer, mapOption),
